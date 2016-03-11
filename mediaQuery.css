@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Media Query */
+
+/* Portrait and Landscape */
+@media only screen and (max-width: 768px) {
+header img {
+	margin-left: 26.25%;
+	margin-right: 26.25%;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+article figure {
+	float: left;
+	margin-left: 2.25%;
+	margin-right: 2.25%;
+	width: 45.5%;
+	height: auto;
+	margin-top: 4.25%;
+}
+p {
+	font-family: lato;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.25em;
+	font-size: 1em;
+	color: rgba(93,93,93,1.00);
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+/* Portrait and Landscape */
+@media only screen and (max-width: 480px) {
+header img {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+article figure {
+	float: left;
+	margin-left: 2.25%;
+	margin-right: 2.25%;
+	width: 95.5%;
+	height: auto;
+	margin-top: 4.25%;
+}
+.sectionRight {
+	height: 300px;
+	width: 95%;
+	padding-bottom: 0px;
+}
+.sectionLeft {
+	width: 95%;
+}
+}
